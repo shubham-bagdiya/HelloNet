@@ -1,4 +1,5 @@
 package helloNet;
+
 import java.net.*;
 import java.util.Scanner;
 import java.io.*;
@@ -27,6 +28,6 @@ public void run(){
 public static void main(String[] args){
 Thread t =new Thread(new helloNet());
 t.start();
-System.out.println("Server has been started...");
+System.out.println("Server initializing...");
 }
 }
